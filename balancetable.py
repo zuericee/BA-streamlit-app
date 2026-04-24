@@ -207,18 +207,19 @@ st.dataframe(results_df)
 import numpy as np
 
 def cohens_d(x1, x2):
+    x1 = pd.to_numeric(x1, errors='coerce')
+    x2 = pd.to_numeric(x2, errors='coerce')
+
     x1 = x1.dropna()
     x2 = x2.dropna()
-    
+
     m1, m2 = x1.mean(), x2.mean()
-    s1, s2 = x1.std(ddof=1), x2.std(ddof=1)
-    
-    pooled_sd = np.sqrt((s1**2 + s2**2) / 2)
-    
-    if pooled_sd == 0:
-        return 0
-    
-    return (m1 - m2) / pooled_sd
+    s1, s2 = x1.std(), x2.std()
+
+    n1, n2 = len(x1), len(x2)
+    s_pooled = (((n1 - 1)*s1**2 + (n2 - 1)*s2**2) / (n1 + n2 - 2))**0.5
+
+    return (m1 - m2) / s_pooled
 
 d_results = []
 
