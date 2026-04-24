@@ -202,3 +202,42 @@ results_df = pd.DataFrame(results)
 
 st.dataframe(results_df)
 
+# cohen's d
+
+import numpy as np
+
+def cohens_d(x1, x2):
+    x1 = x1.dropna()
+    x2 = x2.dropna()
+    
+    m1, m2 = x1.mean(), x2.mean()
+    s1, s2 = x1.std(ddof=1), x2.std(ddof=1)
+    
+    pooled_sd = np.sqrt((s1**2 + s2**2) / 2)
+    
+    if pooled_sd == 0:
+        return 0
+    
+    return (m1 - m2) / pooled_sd
+
+d_results = []
+
+for var in [
+    "financial_risk_willingness",
+    "success_determinants"
+]:
+    d = cohens_d(
+        df_v1[var],
+        df_v2[var]
+    )
+    
+    d_results.append({
+        "variable": var,
+        "cohens_d": d
+    })
+
+d_df = pd.DataFrame(d_results)
+
+st.subheader("Standardized Differences (Cohen's d)")
+st.dataframe(d_df)
+
