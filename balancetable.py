@@ -155,8 +155,6 @@ if checkbox := st.checkbox("Show balance tables"):
 
 # ---------------------------------
 
-st.header("Statistical Tests")
-
 results = []
 
 def run_test(df, var):
@@ -202,8 +200,6 @@ results_df = pd.DataFrame(results)
 
 if st.checkbox("Show stats tests results"):
     st.write(results_df)
-st.dataframe(results_df)
-
 
 st.title("Clean Survey Analysis")
 
