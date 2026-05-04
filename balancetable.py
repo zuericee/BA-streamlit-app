@@ -1,5 +1,8 @@
 import pandas as pd
 import streamlit as st
+from scipy import stats
+import numpy as np
+from statsmodels.stats.power import TTestIndPower
 
 st.title("Balance Table")
 
@@ -137,25 +140,22 @@ categories_dict = {
 # -----------------------
 col1, col2 = st.columns(2)
 
-with col1:
-    st.header("Version 1")
-    for var in variables:
-        st.subheader(var)
-        st.dataframe(make_counts(df_v1, var, categories_dict[var]))
-
-with col2:
-    st.header("Version 2")
-    for var in variables:
-        st.subheader(var)
-        st.dataframe(make_counts(df_v2, var, categories_dict[var]))
+if checkbox := st.checkbox("Show balance tables"):
+    with col1:
+        st.header("Version 1")
+        for var in variables:
+            st.subheader(var)
+            st.dataframe(make_counts(df_v1, var, categories_dict[var]))
+    with col2:
+        st.header("Version 2")
+        for var in variables:
+            st.subheader(var)
+            st.dataframe(make_counts(df_v2, var, categories_dict[var]))
 
 
 # ---------------------------------
 
 st.header("Statistical Tests")
-
-from scipy import stats
-import pandas as pd
 
 results = []
 
@@ -200,5 +200,220 @@ for var in variables:
 
 results_df = pd.DataFrame(results)
 
+if st.checkbox("Show stats tests results"):
+    st.write(results_df)
 st.dataframe(results_df)
+
+
+st.title("Clean Survey Analysis")
+
+# -----------------------
+# LOAD DATA
+# -----------------------
+cols_to_keep = [5, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19]
+df = pd.read_csv("results-survey642194.csv", usecols=cols_to_keep)
+
+df.columns = [
+    "version",
+    "v1_90_noninv",
+    "v1_90_inv",
+    "v1_30_noninv",
+    "v1_30_inv",
+    "v1_60_unlucky",
+    "v1_60_lucky",
+    "v2_90_noninv",
+    "v2_90_inv",
+    "v2_30_noninv",
+    "v2_30_inv",
+    "v2_60_unlucky",
+    "v2_60_lucky"
+]
+
+df["id"] = df.index
+
+# -----------------------
+# SPLIT VERSIONS
+# -----------------------
+v1_cols = ["id"] + [c for c in df.columns if c.startswith("v1_")]
+v2_cols = ["id"] + [c for c in df.columns if c.startswith("v2_")]
+
+df_v1 = df[v1_cols]
+df_v2 = df[v2_cols]
+
+# -----------------------
+# MELT TO LONG FORMAT
+# -----------------------
+df_v1_long = df_v1.melt(id_vars="id", var_name="scenario", value_name="value")
+df_v2_long = df_v2.melt(id_vars="id", var_name="scenario", value_name="value")
+
+# -----------------------
+# EXTRACT INFO
+# -----------------------
+for d in [df_v1_long, df_v2_long]:
+    d[["v", "amount", "condition"]] = d["scenario"].str.split("_", expand=True)
+    d["amount"] = pd.to_numeric(d["amount"], errors="coerce")
+    d["value"] = pd.to_numeric(d["value"], errors="coerce")
+
+# -----------------------
+# CLEAN
+# -----------------------
+df_v1_long = df_v1_long.dropna(subset=["value"])
+df_v2_long = df_v2_long.dropna(subset=["value"])
+
+# -----------------------
+# PIVOT: one row per person × amount
+# -----------------------
+df_v1_clean = df_v1_long.pivot_table(
+    index=["id", "amount"],
+    columns="condition",
+    values="value",
+    aggfunc="first"
+).reset_index()
+
+df_v2_clean = df_v2_long.pivot_table(
+    index=["id", "amount"],
+    columns="condition",
+    values="value",
+    aggfunc="first"
+).reset_index()
+
+# -----------------------
+# DIFFERENCE SCORE
+# -----------------------
+df_v1_clean["diff"] = df_v1_clean["inv"] - df_v1_clean["noninv"]
+df_v2_clean["diff"] = df_v2_clean["inv"] - df_v2_clean["noninv"]
+
+# -----------------------
+# DISPLAY CLEAN DATA
+# -----------------------
+st.subheader("Version 1 Data")
+st.dataframe(df_v1_clean)
+
+st.subheader("Version 2 Data")
+st.dataframe(df_v2_clean)
+
+# =========================================================
+# 30 & 90 = INFERENTIAL ANALYSIS
+# =========================================================
+
+st.subheader("Amount 90 Analysis")
+
+# Filter data
+df_v1_90 = df_v1_clean[df_v1_clean["amount"] == 90].drop(columns=["lucky", "unlucky"], errors="ignore")
+df_v2_90 = df_v2_clean[df_v2_clean["amount"] == 90].drop(columns=["lucky", "unlucky"], errors="ignore")
+
+# Means
+mean_diff_90_1 = df_v1_90["diff"].mean()
+mean_diff_90_2 = df_v2_90["diff"].mean()
+
+st.write("Means of difference scores (inv - noninv) for amount 90:")
+st.write(f"Version 1: {mean_diff_90_1:.2f}")
+st.write(f"Version 2: {mean_diff_90_2:.2f}")
+
+# Standard deviations
+std_diff_90_1 = df_v1_90["diff"].std(ddof=1)
+std_diff_90_2 = df_v2_90["diff"].std(ddof=1)
+
+st.write("Standard deviations of difference scores (inv - noninv) for amount 90:")
+st.write(f"Version 1: {std_diff_90_1:.2f}")
+st.write(f"Version 2: {std_diff_90_2:.2f}")
+
+# Sample sizes
+n1 = df_v1_90["diff"].dropna().shape[0]
+n2 = df_v2_90["diff"].dropna().shape[0]
+
+# Pooled SD (guard against division by zero)
+s_pooled_90 = np.sqrt(
+    (
+        (n1 - 1) * std_diff_90_1**2 +
+        (n2 - 1) * std_diff_90_2**2
+    ) / max(n1 + n2 - 2, 1)
+)
+
+sd_base = s_pooled_90
+sd_low = 0.8 * sd_base
+sd_high = 1.2 * sd_base
+
+st.write("Power analysis for amount 90:")
+
+effect_size_base = (mean_diff_90_1 - mean_diff_90_2) / sd_base if sd_base != 0 else 0
+
+power_analysis = TTestIndPower()
+
+for sd in [sd_low, sd_base, sd_high]:
+    if sd == 0:
+        st.write(f"SD = {sd:.2f} → cannot compute (SD = 0)")
+        continue
+
+    effect_size = (mean_diff_90_1 - mean_diff_90_2) / sd
+
+    required_n = power_analysis.solve_power(
+        effect_size=effect_size,
+        alpha=0.05,
+        power=0.8,
+        alternative='two-sided'
+    )
+
+    st.write(f"SD = {sd:.2f} → required n per group: {required_n:.1f}")
+#------------------------------------------------------------------------------------------
+
+st.subheader("Amount 30 Analysis")
+
+# Filter data
+df_v1_30 = df_v1_clean[df_v1_clean["amount"] == 30].drop(columns=["lucky", "unlucky"], errors="ignore")
+df_v2_30 = df_v2_clean[df_v2_clean["amount"] == 30].drop(columns=["lucky", "unlucky"], errors="ignore")
+
+# Means
+mean_diff_30_1 = df_v1_30["diff"].mean()
+mean_diff_30_2 = df_v2_30["diff"].mean()
+
+st.write("Means of difference scores (inv - noninv) for amount 30:")
+st.write(f"Version 1: {mean_diff_30_1:.2f}")
+st.write(f"Version 2: {mean_diff_30_2:.2f}")
+
+# Standard deviations
+std_diff_30_1 = df_v1_30["diff"].std(ddof=1)
+std_diff_30_2 = df_v2_30["diff"].std(ddof=1)
+
+st.write("Standard deviations of difference scores (inv - noninv) for amount 30:")
+st.write(f"Version 1: {std_diff_30_1:.2f}")
+st.write(f"Version 2: {std_diff_30_2:.2f}")
+
+# Sample sizes
+n1 = df_v1_30["diff"].dropna().shape[0]
+n2 = df_v2_30["diff"].dropna().shape[0]
+
+# Pooled SD (guard against division by zero)
+s_pooled_30 = np.sqrt(
+    (
+        (n1 - 1) * std_diff_30_1**2 +
+        (n2 - 1) * std_diff_30_2**2
+    ) / max(n1 + n2 - 2, 1)
+)
+
+sd_base = s_pooled_30
+sd_low = 0.8 * sd_base
+sd_high = 1.2 * sd_base
+
+st.write("Power analysis for amount 30:")
+
+effect_size_base = (mean_diff_30_1 - mean_diff_30_2) / sd_base if sd_base != 0 else 0
+
+power_analysis = TTestIndPower()
+
+for sd in [sd_low, sd_base, sd_high]:
+    if sd == 0:
+        st.write(f"SD = {sd:.2f} → cannot compute (SD = 0)")
+        continue
+
+    effect_size = (mean_diff_30_1 - mean_diff_30_2) / sd
+
+    required_n = power_analysis.solve_power(
+        effect_size=effect_size,
+        alpha=0.05,
+        power=0.8,
+        alternative='two-sided'
+    )
+
+    st.write(f"SD = {sd:.2f} → required n per group: {required_n:.1f}")
 
