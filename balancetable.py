@@ -292,66 +292,65 @@ st.dataframe(df_v2_clean)
 # 30 & 90 = INFERENTIAL ANALYSIS
 # =========================================================
 
-st.subheader("Amount 90 Analysis")
-
 # Filter data
 df_v1_90 = df_v1_clean[df_v1_clean["amount"] == 90].drop(columns=["lucky", "unlucky"], errors="ignore")
 df_v2_90 = df_v2_clean[df_v2_clean["amount"] == 90].drop(columns=["lucky", "unlucky"], errors="ignore")
 
-# Means
-mean_diff_90_1 = df_v1_90["diff"].mean()
-mean_diff_90_2 = df_v2_90["diff"].mean()
+st.subheader("Amount 90 Analysis second attempt")
+# -----------------------------
+# INVESTOR
+# -----------------------------
 
-st.write("Means of difference scores (inv - noninv) for amount 90:")
-st.write(f"Version 1: {mean_diff_90_1:.2f}")
-st.write(f"Version 2: {mean_diff_90_2:.2f}")
+# Means
+mean_inv_90_1 = df_v1_90["inv"].mean()
+mean_inv_90_2 = df_v2_90["inv"].mean()
+
+st.write("Investor means for amount 90:")
+st.write(f"Version 1: {mean_inv_90_1:.2f}")
+st.write(f"Version 2: {mean_inv_90_2:.2f}")
 
 # Standard deviations
-std_diff_90_1 = df_v1_90["diff"].std(ddof=1)
-std_diff_90_2 = df_v2_90["diff"].std(ddof=1)
+std_inv_90_1 = df_v1_90["inv"].std(ddof=1)
+std_inv_90_2 = df_v2_90["inv"].std(ddof=1)
 
-st.write("Standard deviations of difference scores (inv - noninv) for amount 90:")
-st.write(f"Version 1: {std_diff_90_1:.2f}")
-st.write(f"Version 2: {std_diff_90_2:.2f}")
+st.write("Investor SDs for amount 90:")
+st.write(f"Version 1: {std_inv_90_1:.2f}")
+st.write(f"Version 2: {std_inv_90_2:.2f}")
 
 # Sample sizes
-n1 = df_v1_90["diff"].dropna().shape[0]
-n2 = df_v2_90["diff"].dropna().shape[0]
+n1 = len(df_v1_90)
+n2 = len(df_v2_90)
 
-# Pooled SD (guard against division by zero)
-s_pooled_90 = np.sqrt(
+# Pooled SD for investor ratings
+sd_pooled_inv = np.sqrt(
     (
-        (n1 - 1) * std_diff_90_1**2 +
-        (n2 - 1) * std_diff_90_2**2
-    ) / max(n1 + n2 - 2, 1)
+        (n1 - 1) * std_inv_90_1**2 +
+        (n2 - 1) * std_inv_90_2**2
+    ) / (n1 + n2 - 2)
 )
 
-sd_base = s_pooled_90
-sd_low = 0.8 * sd_base
-sd_high = 1.2 * sd_base
+st.write(f"Pooled SD (Investor): {sd_pooled_inv:.2f}")
 
-st.write("Power analysis for amount 90:")
+# Cohen's d for investor ratings
+d_inv = (
+    (mean_inv_90_1 - mean_inv_90_2) / sd_pooled_inv
+    if sd_pooled_inv != 0 else 0
+)
 
-effect_size_base = (mean_diff_90_1 - mean_diff_90_2) / sd_base if sd_base != 0 else 0
+st.write(f"Cohen's d (Investor): {d_inv:.2f}")
 
-power_analysis = TTestIndPower()
+# Required sample size calculation
+analysis = TTestIndPower()
 
-for sd in [sd_low, sd_base, sd_high]:
-    if sd == 0:
-        st.write(f"SD = {sd:.2f} → cannot compute (SD = 0)")
-        continue
+required_n = analysis.solve_power(
+    effect_size=abs(d_inv),   # Cohen's d
+    power=0.80,               # desired power
+    alpha=0.05,               # significance level
+    ratio=1.0,                # equal group sizes
+    alternative='two-sided'
+)
 
-    effect_size = (mean_diff_90_1 - mean_diff_90_2) / sd
-
-    required_n = power_analysis.solve_power(
-        effect_size=effect_size,
-        alpha=0.05,
-        power=0.8,
-        alternative='two-sided'
-    )
-
-    st.write(f"SD = {sd:.2f} → required n per group: {required_n:.1f}")
-#------------------------------------------------------------------------------------------
+st.write(f"Required sample size per group: {np.ceil(required_n):.0f}")
 
 st.subheader("Amount 30 Analysis")
 
