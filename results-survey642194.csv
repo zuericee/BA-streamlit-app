@@ -2,22 +2,16 @@
 "16","1980-01-01 00:00:00","16","en","511274219","2",,,,,,,,"","45","45","0","30","30","30","2 (left wing)","4","9","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "17","1980-01-01 00:00:00","16","en","507746988","1","","10","80","0","30","30","30",,,,,,,,"5 (slightly right wing)","6","4","Professional education (apprenticeship / Lehre)","60-69","Male","CHF 4'000 – 5'999"
 "18","1980-01-01 00:00:00","16","en","399242902","2",,,,,,,,"","30","60","20","10","30","30","4 (moderate)","5 (neutral)","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","50-59","Male","CHF 6'000 – 7'999"
-"19",,"2","en","1014970027","1","",,,,,,,,,,,,,,,,,,,,
 "20","1980-01-01 00:00:00","16","en","1009269677","1","","0","90","15","15","30","30",,,,,,,,"2 (left wing)","2","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","50-59","Female","CHF 4'000 – 5'999"
 "21","1980-01-01 00:00:00","16","en","1056352504","2",,,,,,,,"","45","45","5","25","0","60","2 (left wing)","2","5 (success depends equally on effort and luck)","Professional education (apprenticeship / Lehre)","50-59","Female","CHF 2'000 - 3'999"
-"22",,"1","en","119582919","1",,,,,,,,,,,,,,,,,,,,,
-"23",,"3","en","409919897","1","","30","60",,,,,,,,,,,,,,,,,,
-"24",,"2","en","718237394","1","",,,,,,,,,,,,,,,,,,,,
 "25","1980-01-01 00:00:00","16","en","695480897","1","","45","45","15","15","30","30",,,,,,,,"4 (moderate)","5 (neutral)","4","Other qualification","50-59","Female","CHF 8'000 – 9'999"
 "26","1980-01-01 00:00:00","16","en","931522175","2",,,,,,,,"","45","45","15","15","30","30","3 (slightly left wing)","7","1 (success mainly depends on effort)","Master's degree (university and university of applied sciences)","20-29","Female","CHF 4'000 – 5'999"
 "27","1980-01-01 00:00:00","16","en","830358614","2",,,,,,,,"","45","45","15","15","0","60","3 (slightly left wing)","6","4","Master's degree (university and university of applied sciences)","50-59","Female","CHF 8'000 – 9'999"
 "28","1980-01-01 00:00:00","16","en","1365215188","1","","30","60","30","0","30","30",,,,,,,,"1 (very left wing)","3","3","Bachelor's degree (university and university of applied sciences)","20-29","Female","CHF 6'000 – 7'999"
 "29","1980-01-01 00:00:00","16","en","39135739","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","6","5 (success depends equally on effort and luck)","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
-"30",,"5","en","2110595924","2",,,,,,,,,,,,,,,,,,,,,
 "31","1980-01-01 00:00:00","16","en","1966285510","1","","30","60","0","30","0","60",,,,,,,,"5 (slightly right wing)","5 (neutral)","7","Professional education (apprenticeship / Lehre)","60-69","Male","CHF 10'000 or more"
 "32","1980-01-01 00:00:00","16","en","139824708","1","","30","60","30","0","0","60",,,,,,,,"5 (slightly right wing)","10 (very willing to take financial risks)","3","Bachelor's degree (university and university of applied sciences)","40-49","Male","CHF 8'000 – 9'999"
 "33","1980-01-01 00:00:00","16","en","698655752","1","","0","90","30","0","30","30",,,,,,,,"5 (slightly right wing)","7","2","Bachelor's degree (university and university of applied sciences)","60-69","Male","Prefer not to say"
-"34",,"6","en","1865301157","2",,,,,,,,"",,,,,,,,,,,,,
 "35","1980-01-01 00:00:00","16","en","1586878132","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","3","7","Master's degree (university and university of applied sciences)","30-39","Female","CHF 6'000 – 7'999"
 "36","1980-01-01 00:00:00","16","en","310094413","1","","30","60","30","0","0","60",,,,,,,,"1 (very left wing)","3","7","Bachelor's degree (university and university of applied sciences)","20-29","Female","CHF 2'000 - 3'999"
 "37","1980-01-01 00:00:00","16","en","631695276","1","","30","60","30","0","15","45",,,,,,,,"2 (left wing)","3","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Male","CHF 2'000 - 3'999"
@@ -25,201 +19,90 @@
 "39","1980-01-01 00:00:00","16","en","644171687","1","","0","90","0","30","20","40",,,,,,,,"5 (slightly right wing)","7","2","Preparatory High School (Gymnasium)","60-69","Male","Prefer not to say"
 "40","1980-01-01 00:00:00","16","en","549879103","2",,,,,,,,"","55","35","0","30","0","60","3 (slightly left wing)","6","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
 "41","1980-01-01 00:00:00","16","en","1971918447","2",,,,,,,,"","50","40","10","20","10","50","4 (moderate)","4","5 (success depends equally on effort and luck)","Other qualification","50-59","Male","CHF 10'000 or more"
-"42",,"2","en","1711636698","1","",,,,,,,,,,,,,,,,,,,,
 "43","1980-01-01 00:00:00","16","en","810662549","2",,,,,,,,"","45","45","0","30","0","60","4 (moderate)","1 (not at all willing to take financial risks)","10 (success mainly depends on luck)","Prefer not to say","60-69","Male","CHF 4'000 – 5'999"
-"44",,"14","en","2079136823","2",,,,,,,,"","60","30","0","30","30","30","4 (moderate)","5 (neutral)","7","Doctoral degree / PhD","50-59",,
 "45","1980-01-01 00:00:00","16","en","574622912","1","","45","45","15","15","30","30",,,,,,,,"4 (moderate)","5 (neutral)","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Male","CHF 8'000 – 9'999"
-"46",,"7","en","228228414","2",,,,,,,,"","45","45","45","45",,,,,,,,,
-"47",,"1","en","1667593295","1",,,,,,,,,,,,,,,,,,,,,
 "48","1980-01-01 00:00:00","16","en","1461725689","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","8","5 (success depends equally on effort and luck)","Professional education (apprenticeship / Lehre)","60-69","Male","CHF 8'000 – 9'999"
-"49",,"2","en","1283702954","1","",,,,,,,,,,,,,,,,,,,,
-"50",,"5","en","399073965","2",,,,,,,,,,,,,,,,,,,,,
 "51","1980-01-01 00:00:00","16","en","17579575","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","7","5 (success depends equally on effort and luck)","Professional education (apprenticeship / Lehre)","20-29","Male","CHF 4'000 – 5'999"
 "52","1980-01-01 00:00:00","16","en","1292468491","1","","30","60","20","10","30","30",,,,,,,,"3 (slightly left wing)","7","4","Master's degree (university and university of applied sciences)","30-39","Female","CHF 2'000 - 3'999"
-"53",,"5","en","67939371","2",,,,,,,,,,,,,,,,,,,,,
 "54","1980-01-01 00:00:00","16","en","1748722865","2",,,,,,,,"","60","30","15","15","0","60","2 (left wing)","5 (neutral)","4","Professional education (apprenticeship / Lehre)","50-59","Female","CHF 4'000 – 5'999"
-"55",,"5","en","1280536486","2",,,,,,,,,,,,,,,,,,,,,
-"56",,"2","en","1018068956","1","",,,,,,,,,,,,,,,,,,,,
-"57",,"2","en","1947142648","1","",,,,,,,,,,,,,,,,,,,,
 "58","1980-01-01 00:00:00","16","en","1383955921","2",,,,,,,,"","55","35","5","25","0","60","2 (left wing)","2","6","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 2'000 - 3'999"
 "59","1980-01-01 00:00:00","16","en","3621453","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","3","5 (success depends equally on effort and luck)","Professional education (apprenticeship / Lehre)","20-29","Female","CHF 2'000 - 3'999"
-"60",,"5","en","742804245","2",,,,,,,,,,,,,,,,,,,,,
 "61","1980-01-01 00:00:00","16","en","1701921939","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","5 (neutral)","5 (success depends equally on effort and luck)","Other qualification","60-69","Female","CHF 2'000 - 3'999"
-"62",,"5","en","1765892824","2",,,,,,,,,,,,,,,,,,,,,
 "63","1980-01-01 00:00:00","16","en","384563120","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","10 (very willing to take financial risks)","2","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 10'000 or more"
-"64",,"5","en","1332890852","2",,,,,,,,,,,,,,,,,,,,,
-"65",,"5","en","1760349009","2",,,,,,,,,,,,,,,,,,,,,
-"66",,"6","en","352307011","2",,,,,,,,"",,,,,,,,,,,,,
-"67",,"6","en","1059779533","2",,,,,,,,"",,,,,,,,,,,,,
-"68",,"1","en","711705860","1",,,,,,,,,,,,,,,,,,,,,
-"69",,"2","en","1320213637","1","",,,,,,,,,,,,,,,,,,,,
-"70",,"14","en","815078711","1","","30","60","30","0","0","60",,,,,,,,"5 (slightly right wing)","1 (not at all willing to take financial risks)","4","Preparatory High School (Gymnasium)","60-69",,
 "71","1980-01-01 00:00:00","16","en","855591685","1","","75","15","15","15","60","0",,,,,,,,"2 (left wing)","4","3","Master's degree (university and university of applied sciences)","30-39","Male","Below CHF 2'000"
-"72",,"5","en","473068230","2",,,,,,,,,,,,,,,,,,,,,
-"73",,"2","en","1731463116","1","",,,,,,,,,,,,,,,,,,,,
-"74",,"2","en","699867648","1","",,,,,,,,,,,,,,,,,,,,
 "75","1980-01-01 00:00:00","16","en","700951452","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","8","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","40-49","Prefer not to say","Prefer not to say"
-"76",,"1","en","1163623720","1",,,,,,,,,,,,,,,,,,,,,
-"77",,"1","en","163047524","1",,,,,,,,,,,,,,,,,,,,,
-"78",,"5","en","1795422251","2",,,,,,,,,,,,,,,,,,,,,
 "79","1980-01-01 00:00:00","16","en","1182880749","2",,,,,,,,"","60","30","0","30","30","30","4 (moderate)","1 (not at all willing to take financial risks)","10 (success mainly depends on luck)","Prefer not to say","Prefer not to say","Female","Prefer not to say"
-"80",,"2","en","527034643","1","",,,,,,,,,,,,,,,,,,,,
-"81",,"6","en","2023854879","2",,,,,,,,"",,,,,,,,,,,,,
 "82","1980-01-01 00:00:00","16","en","900385291","1","","30","60","30","0","0","60",,,,,,,,"5 (slightly right wing)","6","5 (success depends equally on effort and luck)","Bachelor's degree (university and university of applied sciences)","60-69","Female","Below CHF 2'000"
 "83","1980-01-01 00:00:00","16","en","1219572822","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","8","5 (success depends equally on effort and luck)","Bachelor's degree (university and university of applied sciences)","60-69","Male","Below CHF 2'000"
 "84","1980-01-01 00:00:00","16","en","1359282849","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","2","3","Professional education (apprenticeship / Lehre)","50-59","Female","Below CHF 2'000"
-"85",,"5","en","1803251809","2",,,,,,,,,,,,,,,,,,,,,
 "86","1980-01-01 00:00:00","16","en","2010543643","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","4","3","Preparatory High School (Gymnasium)","50-59","Female","CHF 2'000 - 3'999"
 "87","1980-01-01 00:00:00","16","en","1383757958","2",,,,,,,,"","50","40","10","20","30","30","4 (moderate)","7","3","Master's degree (university and university of applied sciences)","40-49","Female","CHF 4'000 – 5'999"
 "88","1980-01-01 00:00:00","16","en","1049265675","2",,,,,,,,"","55","35","5","25","0","60","5 (slightly right wing)","7","3","Master's degree (university and university of applied sciences)","30-39","Female","Prefer not to say"
 "89","1980-01-01 00:00:00","16","en","486112027","1","","30","60","30","0","30","30",,,,,,,,"3 (slightly left wing)","7","4","Professional education (apprenticeship / Lehre)","30-39","Female","CHF 4'000 – 5'999"
 "90","1980-01-01 00:00:00","16","en","1308488743","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","8","4","Other qualification","Below 20","Male","Below CHF 2'000"
 "91","1980-01-01 00:00:00","16","en","824750163","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","5 (neutral)","4","Professional education (apprenticeship / Lehre)","50-59","Female","Prefer not to say"
-"92",,"6","en","750768555","2",,,,,,,,"",,,,,,,,,,,,,
-"93",,"11","en","929221275","1","","30","60","30",,"0","60",,,,,,,,"4 (moderate)","5 (neutral)",,,,,
 "94","1980-01-01 00:00:00","16","en","679815297","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","7","3","Professional education (apprenticeship / Lehre)","20-29","Female","Below CHF 2'000"
-"95",,"6","en","1177992672","2",,,,,,,,"",,,,,,,,,,,,,
 "96","1980-01-01 00:00:00","16","en","1902345550","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","6","5 (success depends equally on effort and luck)","Professional education (apprenticeship / Lehre)","30-39","Female","Below CHF 2'000"
-"97",,"1","en","945948930","1",,,,,,,,,,,,,,,,,,,,,
-"98",,"7","en","703966944","2",,,,,,,,"","60","30",,,,,,,,,,,
 "99","1980-01-01 00:00:00","16","en","993432956","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","3","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "100","1980-01-01 00:00:00","16","en","42590428","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","3","2","Professional education (apprenticeship / Lehre)","20-29","Male","CHF 2'000 - 3'999"
 "101","1980-01-01 00:00:00","16","en","1134930368","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","5 (neutral)","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","Prefer not to say","Male","CHF 10'000 or more"
 "102","1980-01-01 00:00:00","16","en","1510901899","1","","30","60","30","0","0","60",,,,,,,,"5 (slightly right wing)","2","6","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
 "103","1980-01-01 00:00:00","16","en","508904907","2",,,,,,,,"","53","37","3","27","7","53","3 (slightly left wing)","7","7","Bachelor's degree (university and university of applied sciences)","30-39","Male","CHF 2'000 - 3'999"
-"104",,"4","en","1669009816","1","","0","90","0","30",,,,,,,,,,,,,,,,
 "105","1980-01-01 00:00:00","16","en","819171334","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","3","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "106","1980-01-01 00:00:00","16","en","580206558","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","6","1 (success mainly depends on effort)","Other qualification","30-39","Male","CHF 4'000 – 5'999"
-"107",,"6","en","813187150","2",,,,,,,,"",,,,,,,,,,,,,
-"108",,"2","en","722090918","1","",,,,,,,,,,,,,,,,,,,,
 "109","1980-01-01 00:00:00","16","en","890173648","1","","30","60","30","0","0","60",,,,,,,,"2 (left wing)","3","8","Bachelor's degree (university and university of applied sciences)","20-29","Female","CHF 4'000 – 5'999"
-"110",,"2","en","1074937342","1","",,,,,,,,,,,,,,,,,,,,
-"111",,"6","en","736135464","2",,,,,,,,"",,,,,,,,,,,,,
-"112",,"2","en","1415362549","1","",,,,,,,,,,,,,,,,,,,,
 "113","1980-01-01 00:00:00","16","en","1228215490","1","","40","50","20","10","20","40",,,,,,,,"3 (slightly left wing)","4","7","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
-"114",,"6","en","1321019950","2",,,,,,,,"",,,,,,,,,,,,,
 "115","1980-01-01 00:00:00","16","en","1643404352","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","3","7","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"116",,"5","en","1780168744","2",,,,,,,,"",,,,,,,,,,,,,
-"117",,"5","en","1924161901","2",,,,,,,,,,,,,,,,,,,,,
 "118","1980-01-01 00:00:00","16","en","210673886","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","7","3","Doctoral degree / PhD","40-49","Male","CHF 10'000 or more"
-"119",,"2","en","1158682275","1","","30","90",,,,,,,,,,,,,,,,,,
 "120","1980-01-01 00:00:00","16","en","389781580","1","","35","55","25","5","0","60",,,,,,,,"2 (left wing)","5 (neutral)","6","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "121","1980-01-01 00:00:00","16","en","1482695189","2",,,,,,,,"","60","30","0","30","0","60","5 (slightly right wing)","8","2","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
 "122","1980-01-01 00:00:00","16","en","754788776","1","","30","60","30","0","0","60",,,,,,,,"1 (very left wing)","6","10 (success mainly depends on luck)","Bachelor's degree (university and university of applied sciences)","20-29","Other","CHF 4'000 – 5'999"
 "123","1980-01-01 00:00:00","16","en","343801206","1","","30","60","30","0","0","60",,,,,,,,"1 (very left wing)","2","10 (success mainly depends on luck)","Preparatory High School (Gymnasium)","20-29","Prefer not to say","Below CHF 2'000"
-"124",,"6","en","88708366","2",,,,,,,,"",,,,,,,,,,,,,
 "125","1980-01-01 00:00:00","16","en","477600664","1","","30","60","30","0","0","60",,,,,,,,"1 (very left wing)","4","8","Preparatory High School (Gymnasium)","20-29","Female","CHF 2'000 - 3'999"
-"126",,"1","en","105357334","1",,,,,,,,,,,,,,,,,,,,,
-"127",,"2","en","123402230","1","",,,,,,,,,,,,,,,,,,,,
 "128","1980-01-01 00:00:00","16","en","555097847","1","","45","45","15","15","30","30",,,,,,,,"2 (left wing)","1 (not at all willing to take financial risks)","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","70 or above","Female","CHF 4'000 – 5'999"
 "129","1980-01-01 00:00:00","16","en","1473547615","2",,,,,,,,"","60","30","0","30","0","60","6 (right wing)","7","3","Master's degree (university and university of applied sciences)","20-29","Male","Prefer not to say"
-"130",,"6","en","1649900828","2",,,,,,,,"",,,,,,,,,,,,,
-"131",,"6","en","320954212","2",,,,,,,,"",,,,,,,,,,,,,
 "132","1980-01-01 00:00:00","16","en","1164361607","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","4","9","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"133",,"5","en","1954139162","2",,,,,,,,,,,,,,,,,,,,,
-"134",,"5","en","1256682643","2",,,,,,,,,,,,,,,,,,,,,
-"135",,"3","en","667336737","1","","30","60",,,,,,,,,,,,,,,,,,
 "136","1980-01-01 00:00:00","16","en","226729308","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","4","4","Master's degree (university and university of applied sciences)","40-49","Male","Prefer not to say"
-"137",,"6","en","1487012054","2",,,,,,,,"",,,,,,,,,,,,,
-"138",,"15","en","1634874857","1","","30","60","30","0","30","30",,,,,,,,"4 (moderate)","1 (not at all willing to take financial risks)","4","Bachelor's degree (university and university of applied sciences)","20-29","Female",
 "139","1980-01-01 00:00:00","16","en","983851542","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","3","4","Professional education (apprenticeship / Lehre)","20-29","Female","CHF 2'000 - 3'999"
 "140","1980-01-01 00:00:00","16","en","1084430730","1","","45","45","15","15","30","30",,,,,,,,"1 (very left wing)","2","9","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"141",,"4","en","216365822","1","","30","60","30","0",,,,,,,,,,,,,,,,
-"142",,"1","en","1136121340","1",,,,,,,,,,,,,,,,,,,,,
-"143",,"5","en","1863874494","2",,,,,,,,,,,,,,,,,,,,,
-"144",,"5","en","272163138","2",,,,,,,,,,,,,,,,,,,,,
-"145",,"6","en","1218800445","2",,,,,,,,"",,,,,,,,,,,,,
-"146",,"3","en","78952726","1","","30","60",,,,,,,,,,,,,,,,,,
 "147","1980-01-01 00:00:00","16","en","212545644","1","","45","45","15","15","30","30",,,,,,,,"3 (slightly left wing)","8","8","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 2'000 - 3'999"
-"148",,"1","en","266582289","1",,,,,,,,,,,,,,,,,,,,,
 "149","1980-01-01 00:00:00","16","en","437632322","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","7","6","Professional education (apprenticeship / Lehre)","20-29","Female","Below CHF 2'000"
 "150","1980-01-01 00:00:00","16","en","1347407730","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","4","6","Master's degree (university and university of applied sciences)","30-39","Female","CHF 4'000 – 5'999"
 "151","1980-01-01 00:00:00","16","en","1317672024","2",,,,,,,,"","50","40","20","10","10","50","2 (left wing)","6","2","Master's degree (university and university of applied sciences)","40-49","Prefer not to say","CHF 4'000 – 5'999"
-"152",,"5","en","330894054","2",,,,,,,,,,,,,,,,,,,,,
-"153",,"2","en","985372733","1","",,,,,,,,,,,,,,,,,,,,
-"154",,"5","en","519221297","2",,,,,,,,,,,,,,,,,,,,,
-"155",,"6","en","1788860557","2",,,,,,,,"",,,,,,,,,,,,,
-"156",,"5","en","2046478657","2",,,,,,,,,,,,,,,,,,,,,
 "157","1980-01-01 00:00:00","16","en","1971731223","2",,,,,,,,"","45","45","0","30","30","30","1 (very left wing)","1 (not at all willing to take financial risks)","9","Master's degree (university and university of applied sciences)","30-39","Male","Below CHF 2'000"
-"158",,"6","en","952672038","2",,,,,,,,"",,,,,,,,,,,,,
-"159",,"5","en","356905746","2",,,,,,,,,,,,,,,,,,,,,
-"160",,"2","en","2126788393","1","",,,,,,,,,,,,,,,,,,,,
-"161",,"2","en","1428979939","1","",,,,,,,,,,,,,,,,,,,,
-"162",,"6","en","1334361113","2",,,,,,,,"",,,,,,,,,,,,,
-"163",,"5","en","1055257873","2",,,,,,,,,,,,,,,,,,,,,
-"164",,"6","en","75560350","2",,,,,,,,"",,,,,,,,,,,,,
-"165",,"1","en","1676823906","1",,,,,,,,,,,,,,,,,,,,,
-"166",,"2","en","265191235","1","",,,,,,,,,,,,,,,,,,,,
 "167","1980-01-01 00:00:00","16","en","1730943567","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","4","6","Master's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "168","1980-01-01 00:00:00","16","en","671467371","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","3","4","Preparatory High School (Gymnasium)","20-29","Male","CHF 2'000 - 3'999"
-"169",,"1","en","1352153503","1",,,,,,,,,,,,,,,,,,,,,
 "170","1980-01-01 00:00:00","16","en","448891169","2",,,,,,,,"","50","40","0","30","10","50","3 (slightly left wing)","6","7","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "171","1980-01-01 00:00:00","16","en","269355317","1","","30","60","30","0","0","60",,,,,,,,"2 (left wing)","5 (neutral)","4","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"172",,"8","en","911062292","2",,,,,,,,"","50","40","10","20",,,,,,,,,
 "173","1980-01-01 00:00:00","16","en","513850607","1","","0","90","30","0","0","60",,,,,,,,"2 (left wing)","3","7","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "174","1980-01-01 00:00:00","16","en","752837691","1","","30","60","30","0","0","60",,,,,,,,"1 (very left wing)","6","10 (success mainly depends on luck)","Master's degree (university and university of applied sciences)","40-49","Male","CHF 10'000 or more"
-"175",,"6","en","2140775147","2",,,,,,,,"",,,,,,,,,,,,,
-"176",,"6","en","1448731982","2",,,,,,,,"",,,,,,,,,,,,,
-"177",,"13","en","1392040107","1","","45","45","15","15","30","30",,,,,,,,"1 (very left wing)","3","10 (success mainly depends on luck)","Preparatory High School (Gymnasium)",,,
 "178","1980-01-01 00:00:00","16","en","136662693","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","8","4","Master's degree (university and university of applied sciences)","20-29","Male","Prefer not to say"
-"179",,"1","en","1474388329","1",,,,,,,,,,,,,,,,,,,,,
 "180","1980-01-01 00:00:00","16","en","838934499","2",,,,,,,,"","45","45","15","15","60","0","2 (left wing)","6","6","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
-"181",,"5","en","311067389","2",,,,,,,,,,,,,,,,,,,,,
 "182","1980-01-01 00:00:00","16","en","769480425","2",,,,,,,,"","50","40","0","30","30","30","2 (left wing)","8","4","Master's degree (university and university of applied sciences)","30-39","Male","Below CHF 2'000"
 "183","1980-01-01 00:00:00","16","en","2137727133","1","","30","60","30","0","30","30",,,,,,,,"3 (slightly left wing)","8","6","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
 "184","1980-01-01 00:00:00","16","en","168437270","1","","30","60","30","0","0","60",,,,,,,,"7 (very right wing)","8","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","Below 20","Male","Prefer not to say"
-"185",,"2","en","1253135128","1","",,,,,,,,,,,,,,,,,,,,
 "186","1980-01-01 00:00:00","16","en","668247507","1","","30","60","30","0","30","30",,,,,,,,"3 (slightly left wing)","4","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "187","1980-01-01 00:00:00","16","en","893327127","1","","0","90","30","0","30","30",,,,,,,,"2 (left wing)","8","9","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "188","1980-01-01 00:00:00","16","en","16339870","2",,,,,,,,"","45","45","0","30","0","60","2 (left wing)","3","8","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
-"189",,"6","en","1013813892","2",,,,,,,,"",,,,,,,,,,,,,
 "190","1980-01-01 00:00:00","16","en","248889156","2",,,,,,,,"","30","60","15","15","60","0","1 (very left wing)","3","7","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "191","1980-01-01 00:00:00","16","en","251322994","1","","60","30","30","0","0","60",,,,,,,,"2 (left wing)","4","4","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 2'000 - 3'999"
 "192","1980-01-01 00:00:00","16","en","396954359","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","7","4","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 4'000 – 5'999"
-"193",,"3","en","567442561","1","","30","60",,,,,,,,,,,,,,,,,,
 "194","1980-01-01 00:00:00","16","en","1644672458","2",,,,,,,,"","60","30","0","30","30","30","1 (very left wing)","5 (neutral)","8","Prefer not to say","20-29","Female","Below CHF 2'000"
 "195","1980-01-01 00:00:00","16","en","231859913","2",,,,,,,,"","90","0","0","30","0","60","2 (left wing)","1 (not at all willing to take financial risks)","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","20-29","Other","Below CHF 2'000"
 "196","1980-01-01 00:00:00","16","en","822878303","2",,,,,,,,"","60","30","0","30","0","60","5 (slightly right wing)","7","3","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "197","1980-01-01 00:00:00","16","en","22590278","1","","30","60","15","15","0","60",,,,,,,,"3 (slightly left wing)","1 (not at all willing to take financial risks)","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"198",,"6","en","1191671624","2",,,,,,,,"",,,,,,,,,,,,,
-"199",,"1","en","1528987500","1",,,,,,,,,,,,,,,,,,,,,
-"200",,"2","en","1350262876","1","",,,,,,,,,,,,,,,,,,,,
 "201","1980-01-01 00:00:00","16","en","1193023288","2",,,,,,,,"","60","30","0","30","0","60","6 (right wing)","3","3","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
 "202","1980-01-01 00:00:00","16","en","1196546774","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","3","4","Master's degree (university and university of applied sciences)","20-29","Male","CHF 4'000 – 5'999"
-"203",,"6","en","1627231399","2",,,,,,,,"",,,,,,,,,,,,,
-"204",,"9","en","1117224457","2",,,,,,,,"","60","30","0","30","0","60","",,,,,,
-"205",,"6","en","449020023","2",,,,,,,,"",,,,,,,,,,,,,
-"206",,"2","en","1004854763","1","",,,,,,,,,,,,,,,,,,,,
-"207",,"2","en","242698441","1","",,,,,,,,,,,,,,,,,,,,
-"208",,"5","en","863685996","2",,,,,,,,,,,,,,,,,,,,,
-"209",,"1","en","1865459605","1",,,,,,,,,,,,,,,,,,,,,
-"210",,"2","en","1363307221","1","",,,,,,,,,,,,,,,,,,,,
-"211",,"2","en","868725762","1","",,,,,,,,,,,,,,,,,,,,
-"212",,"15","en","907354077","1","","30","60","0","30","0","60",,,,,,,,"5 (slightly right wing)","7","2","Bachelor's degree (university and university of applied sciences)","20-29","Male",
-"213",,"3","en","1414900021","1","","0","90",,,,,,,,,,,,,,,,,,
-"214",,"5","en","657821814","2",,,,,,,,,,,,,,,,,,,,,
 "215","1980-01-01 00:00:00","16","en","381385799","1","","30","60","30","0","0","60",,,,,,,,"6 (right wing)","7","2","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
-"216",,"1","en","1678651241","1",,,,,,,,,,,,,,,,,,,,,
-"217",,"6","en","1605084633","2",,,,,,,,"",,,,,,,,,,,,,
-"218",,"2","en","801987968","1","",,,,,,,,,,,,,,,,,,,,
-"219",,"2","en","1368426005","1","",,,,,,,,,,,,,,,,,,,,
-"220",,"1","en","315004713","1",,,,,,,,,,,,,,,,,,,,,
-"221",,"1","en","1106529100","1",,,,,,,,,,,,,,,,,,,,,
-"222",,"2","en","1003697251","1","",,,,,,,,,,,,,,,,,,,,
 "223","1980-01-01 00:00:00","16","en","338098597","1","","30","60","30","0","0","60",,,,,,,,"5 (slightly right wing)","8","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","60-69","Male","CHF 4'000 – 5'999"
-"224",,"2","en","331997365","1","",,,,,,,,,,,,,,,,,,,,
-"225",,"13","en","1079733038","2",,,,,,,,"","55","35","5","25","30","30","3 (slightly left wing)","6","6","Prefer not to say",,,
 "226","1980-01-01 00:00:00","16","en","323587682","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","3","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","Below 20","Female","Below CHF 2'000"
 "227","1980-01-01 00:00:00","16","en","1398408496","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","3","7","Doctoral degree / PhD","50-59","Male","CHF 8'000 – 9'999"
 "228","1980-01-01 00:00:00","16","en","1869355883","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","2","8","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "229","1980-01-01 00:00:00","16","en","754159964","2",,,,,,,,"","60","30","0","30","30","30","2 (left wing)","5 (neutral)","7","Doctoral degree / PhD","20-29","Male","CHF 6'000 – 7'999"
 "230","1980-01-01 00:00:00","16","en","959238262","2",,,,,,,,"","55","35","10","20","30","30","3 (slightly left wing)","8","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","Below 20","Male","Below CHF 2'000"
-"231",,"2","en","1589788516","1","",,,,,,,,,,,,,,,,,,,,
 "232","1980-01-01 00:00:00","16","en","7960380","2",,,,,,,,"","45","45","15","15","30","30","4 (moderate)","3","5 (success depends equally on effort and luck)","Bachelor's degree (university and university of applied sciences)","40-49","Male","CHF 6'000 – 7'999"
 "233","1980-01-01 00:00:00","16","en","311271546","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","7","9","Doctoral degree / PhD","30-39","Male","Prefer not to say"
-"234",,"1","en","679186491","1",,,,,,,,,,,,,,,,,,,,,
 "235","1980-01-01 00:00:00","16","en","960129534","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","4","3","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"236",,"2","en","1648384129","1","",,,,,,,,,,,,,,,,,,,,
 "237","1980-01-01 00:00:00","16","en","1253827286","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","4","3","Master's degree (university and university of applied sciences)","30-39","Male","CHF 8'000 – 9'999"
 "238","1980-01-01 00:00:00","16","en","339443074","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","7","4","Master's degree (university and university of applied sciences)","20-29","Male","CHF 8'000 – 9'999"
 "239","1980-01-01 00:00:00","16","en","695098790","2",,,,,,,,"","45","45","0","30","0","60","4 (moderate)","7","3","Bachelor's degree (university and university of applied sciences)","30-39","Female","CHF 4'000 – 5'999"
@@ -227,18 +110,14 @@
 "241","1980-01-01 00:00:00","16","en","197352683","2",,,,,,,,"","55","35","5","25","10","50","3 (slightly left wing)","9","3","Bachelor's degree (university and university of applied sciences)","40-49","Male","CHF 6'000 – 7'999"
 "242","1980-01-01 00:00:00","16","en","1592201697","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","7","6","Master's degree (university and university of applied sciences)","70 or above","Male","CHF 6'000 – 7'999"
 "243","1980-01-01 00:00:00","16","en","1967903675","1","","30","60","30","0","25","35",,,,,,,,"5 (slightly right wing)","8","4","Master's degree (university and university of applied sciences)","20-29","Male","CHF 6'000 – 7'999"
-"244",,"1","en","639234086","1",,,,,,,,,,,,,,,,,,,,,
 "245","1980-01-01 00:00:00","16","en","1475154384","2",,,,,,,,"","45","45","0","30","30","30","2 (left wing)","6","8","Master's degree (university and university of applied sciences)","30-39","Female","Below CHF 2'000"
 "246","1980-01-01 00:00:00","16","en","679933302","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","6","5 (success depends equally on effort and luck)","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "247","1980-01-01 00:00:00","16","en","1796205138","2",,,,,,,,"","50","40","0","30","15","45","2 (left wing)","5 (neutral)","6","Master's degree (university and university of applied sciences)","20-29","Male","CHF 4'000 – 5'999"
 "248","1980-01-01 00:00:00","16","en","1294157450","1","","45","45","15","15","30","30",,,,,,,,"1 (very left wing)","4","4","Master's degree (university and university of applied sciences)","20-29","Female","CHF 4'000 – 5'999"
-"249",,"10","en","386437156","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)",,,,,,
-"250",,"8","en","15108237","2",,,,,,,,"","60","30","0","30",,,,,,,,,
 "251","1980-01-01 00:00:00","16","en","1565037372","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","7","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","20-29","Male","CHF 2'000 - 3'999"
 "252","1980-01-01 00:00:00","16","en","1386356023","2",,,,,,,,"","60","30","0","30","30","30","3 (slightly left wing)","3","7","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "253","1980-01-01 00:00:00","16","en","1655470807","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","2","4","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "254","1980-01-01 00:00:00","16","en","1022099229","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","4","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Male","CHF 6'000 – 7'999"
-"255",,"6","en","887330954","2",,,,,,,,"",,,,,,,,,,,,,
 "256","1980-01-01 00:00:00","16","en","453883926","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","3","4","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "257","1980-01-01 00:00:00","16","en","1011542285","2",,,,,,,,"","45","45","5","25","20","40","4 (moderate)","6","3","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "258","1980-01-01 00:00:00","16","en","323698291","1","","30","60","30","0","30","30",,,,,,,,"5 (slightly right wing)","6","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
@@ -252,55 +131,32 @@
 "266","1980-01-01 00:00:00","16","en","1400508162","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","10 (very willing to take financial risks)","10 (success mainly depends on luck)","Master's degree (university and university of applied sciences)","30-39","Male","CHF 6'000 – 7'999"
 "267","1980-01-01 00:00:00","16","en","150860137","1","","30","60","30","0","0","60",,,,,,,,"5 (slightly right wing)","4","3","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
 "268","1980-01-01 00:00:00","16","en","223477279","1","","35","55","25","5","28","32",,,,,,,,"3 (slightly left wing)","7","4","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
-"269",,"5","en","545699466","2",,,,,,,,,,,,,,,,,,,,,
 "270","1980-01-01 00:00:00","16","en","1391740471","2",,,,,,,,"","45","45","15","15","0","60","3 (slightly left wing)","6","4","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
-"271",,"2","en","1509390989","1","",,,,,,,,,,,,,,,,,,,,
 "272","1980-01-01 00:00:00","16","en","1480693596","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","7","4","Master's degree (university and university of applied sciences)","20-29","Male","CHF 2'000 - 3'999"
 "273","1980-01-01 00:00:00","16","en","77485052","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","1 (not at all willing to take financial risks)","3","Doctoral degree / PhD","30-39","Female","CHF 4'000 – 5'999"
-"274",,"8","en","924692284","2",,,,,,,,"","60","30","0","30",,,,,,,,,
-"275",,"14","en","226333011","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","7","3","Doctoral degree / PhD","60-69",,
 "276","1980-01-01 00:00:00","16","en","7276798","1","","45","45","30","0","15","45",,,,,,,,"5 (slightly right wing)","7","8","Preparatory High School (Gymnasium)","20-29","Male","Below CHF 2'000"
-"277",,"6","en","755327362","2",,,,,,,,"",,,,,,,,,,,,,
 "278","1980-01-01 00:00:00","16","en","543717426","1","","30","60","20","10","30","30",,,,,,,,"5 (slightly right wing)","7","6","Preparatory High School (Gymnasium)","30-39","Male","CHF 2'000 - 3'999"
-"279",,"7","en","1838624021","2",,,,,,,,"","60","30",,,,,,,,,,,
 "280","1980-01-01 00:00:00","16","en","1732006460","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","4","8","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "281","1980-01-01 00:00:00","16","en","1663221755","2",,,,,,,,"","60","30","0","30","20","40","2 (left wing)","4","5 (success depends equally on effort and luck)","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"282",,"6","en","346371313","2",,,,,,,,"",,,,,,,,,,,,,
 "283","1980-01-01 00:00:00","16","en","422167771","1","","60","30","30",,"30","30",,,,,,,,"4 (moderate)","4","6","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "284","1980-01-01 00:00:00","16","en","705589456","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","7","7","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"285",,"1","en","1422030180","1",,,,,,,,,,,,,,,,,,,,,
-"286",,"1","en","1024873104","1",,,,,,,,,,,,,,,,,,,,,
 "287","1980-01-01 00:00:00","16","en","515080344","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","4","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","40-49","Female","CHF 2'000 - 3'999"
-"288",,"2","en","152236948","1","",,,,,,,,,,,,,,,,,,,,
 "289","1980-01-01 00:00:00","16","en","1505092313","1","","30","60","30","0","30","30",,,,,,,,"2 (left wing)","3","6","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "290","1980-01-01 00:00:00","16","en","1381976189","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","5 (neutral)","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Male","Prefer not to say"
 "291","1980-01-01 00:00:00","16","en","1664580081","1","","30","60","30","0","0","60",,,,,,,,"1 (very left wing)","10 (very willing to take financial risks)","1 (success mainly depends on effort)","Preparatory High School (Gymnasium)","20-29","Male","Prefer not to say"
-"292",,"2","en","446042611","1","",,,,,,,,,,,,,,,,,,,,
 "293","1980-01-01 00:00:00","16","en","1063404041","2",,,,,,,,"","50","40","0","30","0","60","3 (slightly left wing)","3","4","Bachelor's degree (university and university of applied sciences)","20-29","Female","CHF 2'000 - 3'999"
 "294","1980-01-01 00:00:00","16","en","1161409541","1","","30","60","30","0","0","60",,,,,,,,"2 (left wing)","3","3","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"295",,"6","en","1242897442","2",,,,,,,,"",,,,,,,,,,,,,
-"296",,"11","en","2047439692","1","","30","60","30","0","30","30",,,,,,,,"3 (slightly left wing)","3",,,,,
 "297","1980-01-01 00:00:00","16","en","996981223","1","","30","60","30","0","0","60",,,,,,,,"6 (right wing)","7","3","Doctoral degree / PhD","Below 20","Other","CHF 10'000 or more"
-"298",,"5","en","1318360401","2",,,,,,,,,,,,,,,,,,,,,
 "299","1980-01-01 00:00:00","16","en","1966498354","1","","30","60","0","30","30","30",,,,,,,,"1 (very left wing)","2","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "300","1980-01-01 00:00:00","16","en","1996969582","2",,,,,,,,"","45","45","15","15","30","30","2 (left wing)","6","7","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 4'000 – 5'999"
 "301","1980-01-01 00:00:00","16","en","1162534037","1","","30","60","30","0","0","60",,,,,,,,"2 (left wing)","3","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","60-69","Male","CHF 6'000 – 7'999"
-"302",,"1","en","92272918","1",,,,,,,,,,,,,,,,,,,,,
 "303","1980-01-01 00:00:00","16","en","562197797","2",,,,,,,,"","45","45","15","15","30","30","3 (slightly left wing)","3","3","Master's degree (university and university of applied sciences)","20-29","Female","CHF 4'000 – 5'999"
-"304",,"5","en","2114789868","2",,,,,,,,,,,,,,,,,,,,,
-"305",,"2","en","1276339983","1","",,,,,,,,,,,,,,,,,,,,
 "306","1980-01-01 00:00:00","16","en","1811011946","2",,,,,,,,"","60","30","0","30","0","60","1 (very left wing)","2","7","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "307","1980-01-01 00:00:00","16","en","993186231","2",,,,,,,,"","60","30","0","30","0","60","6 (right wing)","6","1 (success mainly depends on effort)","Professional education (apprenticeship / Lehre)","30-39","Male","CHF 2'000 - 3'999"
-"308",,"1","en","203399705","1",,,,,,,,,,,,,,,,,,,,,
-"309",,"13","en","906073031","1","","30","60","30","0","30","30",,,,,,,,"5 (slightly right wing)","4","3","Other qualification",,,
-"310",,"6","en","148530431","2",,,,,,,,"",,,,,,,,,,,,,
 "311","1980-01-01 00:00:00","16","en","1854275670","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","4","4","Master's degree (university and university of applied sciences)","40-49","Female","CHF 10'000 or more"
 "312","1980-01-01 00:00:00","16","en","2122206909","2",,,,,,,,"","45","45","15","15","0","60","3 (slightly left wing)","6","4","Master's degree (university and university of applied sciences)","20-29","Male","CHF 8'000 – 9'999"
-"313",,"5","en","857620405","2",,,,,,,,,,,,,,,,,,,,,
-"314",,"11","en","2105852345","2",,,,,,,,"","55","35","5","25","0","60","2 (left wing)","10 (very willing to take financial risks)",,,,,
 "315","1980-01-01 00:00:00","16","en","1149031900","2",,,,,,,,"","60","30","0","30","30","30","2 (left wing)","7","6","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "316","1980-01-01 00:00:00","16","en","1584588972","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","4","4","Preparatory High School (Gymnasium)","Below 20","Female","Below CHF 2'000"
-"317",,"13","en","1943789759","1","","30","60","30","0","0","60",,,,,,,,"5 (slightly right wing)","7","3","Doctoral degree / PhD",,,
 "318","1980-01-01 00:00:00","16","en","17211230","2",,,,,,,,"","60","30","0","30","0","60","5 (slightly right wing)","4","3","Other qualification","60-69","Male","CHF 2'000 - 3'999"
 "319","1980-01-01 00:00:00","16","en","74765409","2",,,,,,,,"","60","30","10","20","30","30","2 (left wing)","2","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","40-49","Male","CHF 10'000 or more"
 "320","1980-01-01 00:00:00","16","en","782735110","2",,,,,,,,"","55","35","5","25","0","60","2 (left wing)","3","7","Master's degree (university and university of applied sciences)","30-39","Male","CHF 8'000 – 9'999"
@@ -320,7 +176,6 @@
 "334","1980-01-01 00:00:00","16","en","1280834404","2",,,,,,,,"","50","40","10","20","50","10","3 (slightly left wing)","7","6","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "335","1980-01-01 00:00:00","16","en","525240562","1","","30","60","30","0","0","60",,,,,,,,"3 (slightly left wing)","2","8","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "336","1980-01-01 00:00:00","16","en","2130397849","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","10 (very willing to take financial risks)","5 (success depends equally on effort and luck)","Preparatory High School (Gymnasium)","Below 20","Male","Below CHF 2'000"
-"337",,"6","en","805751267","2",,,,,,,,"",,,,,,,,,,,,,
 "338","1980-01-01 00:00:00","16","en","557789343","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","4","4","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
 "339","1980-01-01 00:00:00","16","en","1632732791","2",,,,,,,,"","45","45","15","15","30","30","3 (slightly left wing)","4","3","Professional education (apprenticeship / Lehre)","20-29","Female","Below CHF 2'000"
 "340","1980-01-01 00:00:00","16","en","1923526945","2",,,,,,,,"","50","40","0","30","0","60","3 (slightly left wing)","1 (not at all willing to take financial risks)","3","Doctoral degree / PhD","50-59","Female","CHF 8'000 – 9'999"
@@ -328,14 +183,10 @@
 "342","1980-01-01 00:00:00","16","en","1552451157","1","","45","45","10","20","15","45",,,,,,,,"4 (moderate)","6","6","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "343","1980-01-01 00:00:00","16","en","475457293","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","5 (neutral)","7","Bachelor's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
 "344","1980-01-01 00:00:00","16","en","162575504","2",,,,,,,,"","90","0","0","30","0","60","5 (slightly right wing)","6","2","Master's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
-"345",,"2","en","2142357059","1","",,,,,,,,,,,,,,,,,,,,
 "346","1980-01-01 00:00:00","16","en","2121368107","1","","30","60","30","0","0","60",,,,,,,,"4 (moderate)","4","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Male","CHF 6'000 – 7'999"
 "347","1980-01-01 00:00:00","16","en","395200469","2",,,,,,,,"","60","30","0","30","0","60","3 (slightly left wing)","6","5 (success depends equally on effort and luck)","Master's degree (university and university of applied sciences)","20-29","Female","Below CHF 2'000"
-"348",,"6","en","1610807962","2",,,,,,,,"",,,,,,,,,,,,,
 "349","1980-01-01 00:00:00","16","en","1394491840","1","","30","60","30","0","10","50",,,,,,,,"5 (slightly right wing)","7","6","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 6'000 – 7'999"
 "350","1980-01-01 00:00:00","16","en","1727526211","2",,,,,,,,"","60","30","0","30","0","60","4 (moderate)","8","5 (success depends equally on effort and luck)","Bachelor's degree (university and university of applied sciences)","20-29","Male","Below CHF 2'000"
 "351","1980-01-01 00:00:00","16","en","1968664369","1","","45","45","15","15","30","30",,,,,,,,"3 (slightly left wing)","4","3","Professional education (apprenticeship / Lehre)","20-29","Male","CHF 4'000 – 5'999"
-"352",,"2","en","1478439662","1","",,,,,,,,,,,,,,,,,,,,
 "353","1980-01-01 00:00:00","16","en","878581108","2",,,,,,,,"","30","60","15","15","30","30","5 (slightly right wing)","8","7","Bachelor's degree (university and university of applied sciences)","20-29","Male","CHF 4'000 – 5'999"
-"354",,"5","en","1300192282","2",,,,,,,,,,,,,,,,,,,,,
 "355","1980-01-01 00:00:00","16","en","1679500504","2",,,,,,,,"","60","30","0","30","0","60","2 (left wing)","5 (neutral)","4","Preparatory High School (Gymnasium)","20-29","Female","Below CHF 2'000"
